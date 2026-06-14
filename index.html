@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Something Special ❤️</title>
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Montserrat:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+    <button
+    id="musicToggle"
+    onclick="toggleMusic()">
+
+    🔊
+
+    </button>
+
+    <div id="background"></div>
+
+    <div id="overlay"></div>
+
+    <div id="particles"></div>
+
+    <div id="sparkleContainer"></div>
+
+    <div id="confettiContainer"></div>
+
+    <div id="app">
+
+        <div class="lock-container">
+
+            <p class="subtitle">
+                A little something for Varshu ❤️
+            </p>
+
+            <div
+            class="lock-svg-container"
+            id="mainLock"
+            onclick="unlockExperience()">
+
+                <svg
+                class="lock-svg"
+                viewBox="0 0 100 120">
+
+                    <path
+                    id="shackle"
+                    d="M30 50
+                    V30
+                    C30 10 70 10 70 30
+                    V50"
+
+                    fill="none"
+                    stroke="white"
+                    stroke-width="8"
+                    stroke-linecap="round"/>
+
+                    <rect
+                    x="20"
+                    y="45"
+                    width="60"
+                    height="55"
+                    rx="10"
+
+                    fill="rgba(255,255,255,0.15)"
+                    stroke="white"
+                    stroke-width="4"/>
+
+                    <circle
+                    cx="50"
+                    cy="70"
+                    r="6"
+                    fill="white"/>
+
+                </svg>
+
+            </div>
+
+            <h1>
+                This surprise unlocks on your Birthday ❤️
+            </h1>
+
+            <h2>
+                20 June 2026 • 12:00 AM IST
+            </h2>
+
+            <div id="countdown">
+
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <small>DAYS</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <small>HOURS</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <small>MINUTES</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <small>SECONDS</small>
+                </div>
+
+            </div>
+
+            <p class="mission">
+                Tap the lock when its time ❤️
+            </p>
+
+            <p class="quote">
+                "The best surprises take time."
+            </p>
+
+        </div>
+
+    </div>
+    <audio
+    id="bgMusic"
+    loop>
+    </audio>   
+    <script src="script.js"></script>
+
+</body>
+
+</html>
