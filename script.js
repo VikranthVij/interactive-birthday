@@ -538,10 +538,14 @@ function showQuestion4(){
 }
 
 function showLetter(){
+
     playMusic(
     music.love
     );
-    setBackground(backgrounds.letter);
+
+    setBackground(
+    backgrounds.letter
+    );
 
     const app =
     document.getElementById("app");
@@ -555,19 +559,321 @@ function showLetter(){
             class="birthday-title">
             </h1>
 
-            <p class="birthday-subtitle">
+            <div class="letter-content">
 
-                Dear Varshu,
-
-                <br><br>
-
-                [Letter Placeholder]
+                My love ❤️,
 
                 <br><br>
 
-                Happy Birthday ❤️
+                Do you know why you mean a lot to me?
 
-            </p>
+                Honestly, I don't know either.
+
+                <br><br>
+
+                I never knew the reason for falling in love with you. Why did I fall in love with a girl with whom I spent my entire 11th and 12th, only to realise it after all these years?
+
+                <br><br>
+
+                It was never your beauty (Though I will argue how amazingly breathtaking you look 😌), nor any major common interest (we love opposite things).
+
+                <br><br>
+
+                After these 2.5 years of love with you, I realised that most of my happiness in college was directly or indirectly affiliated with you.
+
+                <br><br>
+
+                Should I go to college today?
+
+                <br>
+
+                "Oh, Varshu will come. Paravala polaam va, avalukaaga."
+
+                <br><br>
+
+                Almost every major event where I was truly happy had you in it.
+
+                <br><br>
+
+                Then I realised something.
+
+                <br><br>
+
+                It wasn't that you were present in my happy memories.
+
+                <br>
+
+                Those memories became happy because you were present in them.
+
+                <br><br>
+
+                Whenever I take a decision, I think about you.
+
+                <br>
+
+                Will I be able to share this with her?
+
+                <br><br>
+
+                Whenever I go somewhere and spot a jhumka stall or an earring shop, I stop and look.
+
+                <br><br>
+
+                If I find something beautiful, I buy it.
+
+                <br><br>
+
+                Just to safeguard it until I can give it to you and see that beautiful smile on your face.
+
+                <br><br><br>
+
+                Sureee, we had our ups and downs.
+
+                <br><br>
+
+                I have made mistakes, some of them grave ones.
+
+                <br>
+
+                And you have made mistakes too.
+
+                <br><br>
+
+                But despite everything, I still choose you.
+
+                <br><br>
+
+                I still choose to share my life and my moments with you.
+
+                <br><br>
+
+                I get sad.
+
+                I get low.
+
+                And most importantly, I cry.
+
+                <br><br>
+
+                I cry a lot.
+
+                <br><br>
+
+                And all the times I cry, it is usually for the people who mean the most to me.
+
+                <br><br>
+
+                Crying isn't weakness.
+
+                It is simply how deeply I care.
+
+                <br><br>
+
+                Believe me, I acknowledge my mistakes and I genuinely regret hurting you whenever I do.
+
+                <br><br>
+
+                I found someone with whom I can share absolutely anything.
+
+                <br><br>
+
+                And I truly hope that I am that person for you too.
+
+                <br><br>
+
+                I am not perfect.
+
+                <br>
+
+                I make mistakes.
+
+                <br>
+
+                But I genuinely try to fix them.
+
+                <br><br>
+
+                Not only because it makes you feel better, but because it makes our future selves happier and more secure.
+
+                <br><br><br>
+
+                My love,
+
+                <br><br>
+
+                I have never pretended to love you.
+
+                <br>
+
+                I have never pretended to listen to you.
+
+                <br>
+
+                I have never pretended to be uninterested in what you talk about.
+
+                <br><br>
+
+                There may be moments where it feels otherwise.
+
+                <br><br>
+
+                Honestly, I can never fully prove it.
+
+                <br><br>
+
+                But I promise it is never intentional.
+
+                <br><br>
+
+                No matter how many highs and lows we go through, I always find my way back to loving you with everything I have.
+
+                <br><br>
+
+                Varshu da,
+
+                <br><br>
+
+                You are a major part of who I am.
+
+                <br><br>
+
+                And I hope I am the same for you.
+
+                <br><br>
+
+                Times may change.
+
+                <br>
+
+                How I express myself may change.
+
+                <br>
+
+                My actions may change.
+
+                <br>
+
+                Situations may change.
+
+                <br>
+
+                Replies may change.
+
+                <br><br>
+
+                But my love for you remains constant.
+
+                <br><br>
+
+                I may go from gifting you earrings to gifting you things that genuinely help you.
+
+                <br>
+
+                But gifting you never changes.
+
+                <br><br>
+
+                I may go from buying you chocolates and food to making food for you one day.
+
+                <br>
+
+                But feeding you never changes.
+
+                <br><br>
+
+                I may go from talking about travelling places with you to actually travelling with you.
+
+                <br>
+
+                But travelling with you never changes.
+
+                <br><br>
+
+                You will always remain one of my biggest priorities.
+
+                <br><br>
+
+                Over time, you may feel that I changed.
+
+                <br><br>
+
+                And honestly, I probably will.
+
+                <br><br>
+
+                Change with correction is always better, isn't it?
+
+                <br><br>
+
+                Let's welcome change.
+
+                <br><br>
+
+                And whenever something doesn't feel right, let's talk about it.
+
+                <br><br>
+
+                Let's fix it.
+
+                Let's grow together.
+
+                <br><br>
+
+                And I promise you that I will do my best to give life to every word written here.
+
+                <br><br><br>
+
+                Happy Birthday, my loveeeee ❤️
+
+                <br><br>
+
+                Happy 21!!!!!!!
+
+                <br><br>
+
+                I love you smmmm ❤️
+
+                <br><br>
+
+                I was, am, and always will be proud of who you were, who you are, and who you will become ❤️
+
+                <br><br>
+
+                No matter what happens, I will always be one of your biggest supporters through both your personal and professional life.
+
+                <br><br>
+
+                You will always remain my Roman Empire 😌
+
+                <br><br>
+
+                I wish for you to be blessed with all the happiness that exists in this world.
+
+                <br><br>
+
+                And I hope that beautiful smile of yours never leaves your face ❤️
+
+                <br><br><br>
+
+                <div class="letter-ending">
+
+                    <i>
+                    <b>
+                    I love youuuuu and I miss youuu smmmm daaaa ❤️
+                    </b>
+                    </i>
+
+                </div>
+
+                <br><br>
+
+                Forever yours,
+
+                <br><br>
+
+                Vikranth ❤️
+
+            </div>
 
             <button
             class="continue-btn"
@@ -580,6 +886,7 @@ function showLetter(){
         </div>
 
     `;
+
     typeWriter(
         "letterTitle",
         "A Letter For You ❤️",
@@ -676,7 +983,7 @@ function showAlbum(){
 
             <button
             class="continue-btn"
-            onclick="transitionTo(showFinalScreen)">
+            onclick="transitionTo(showLastQuestion)">
 
                 One Last Thing ❤️
 
@@ -721,10 +1028,62 @@ function showAlbum(){
 
     `;
 }
+function showLastQuestion(){
 
+    setBackground(
+    backgrounds.final
+    );
+
+    const app =
+    document.getElementById("app");
+
+    app.innerHTML = `
+
+        <div class="question-screen">
+
+            <h1
+            id="lastQuestionTitle"
+            class="question-title">
+            </h1>
+
+            <p
+            class="question-message">
+
+                One last thing before we finish ❤️
+
+            </p>
+
+            <div class="question-buttons">
+
+                <button
+                class="yes-btn"
+                onclick="transitionTo(showFinalScreen)">
+
+                    YES ❤️
+
+                </button>
+
+            </div>
+
+        </div>
+
+    `;
+
+    typeWriter(
+        "lastQuestionTitle",
+        "Will you continue making memories with me? ❤️",
+        70
+    );
+}
 function showFinalScreen(){
 
-    setBackground(backgrounds.final);
+    setBackground(
+    backgrounds.final
+    );
+
+    playMusic(
+    music.love
+    );
 
     const app =
     document.getElementById("app");
@@ -733,34 +1092,59 @@ function showFinalScreen(){
 
         <div class="birthday-screen">
 
-            <h1 class="birthday-title">
-
-                Thank You For Existing ❤️
-
+            <h1
+            id="finalTitle"
+            class="birthday-title">
             </h1>
 
-            <p class="birthday-subtitle">
+            <p
+            class="birthday-subtitle">
 
                 Thank you for being part
                 of my life.
 
                 <br><br>
 
-                I love you ❤️
+                Thank you for every smile.
+
+                <br><br>
+
+                Thank you for every memory.
+
+                <br><br>
+
+                Thank you for choosing me.
+
+                <br><br>
+
+                No matter what happens,
+
+                <br>
+
+                I will always be cheering
+                for you ❤️
+
+                <br><br><br>
+
+                <span class="final-love">
+
+                    I love you ❤️
+
+                </span>
 
             </p>
-
-            <button
-            class="continue-btn"
-            onclick="transitionTo(showBirthdayScreen)">
-
-                Replay Our Story ❤️
-
-            </button>
 
         </div>
 
     `;
+
+    typeWriter(
+        "finalTitle",
+        "Thank You For Existing ❤️",
+        70
+    );
+
+    createConfetti();
 }
 function activateNoButton(){
 

@@ -835,3 +835,45 @@ h2{
         rotate(720deg);
     }
 }
+.letter-content{
+
+    max-width:900px;
+
+    margin:30px auto;
+
+    padding:35px;
+
+    text-align:left;
+
+    line-height:1.9;
+
+    font-size:1.1rem;
+
+    background:
+    rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:25px;
+
+    max-height:60vh;
+
+    overflow-y:auto;
+}
+
+.letter-ending{
+
+    text-align:center;
+
+    font-size:1.8rem;
+
+    color:#FFD700;
+}
+.final-love{
+
+    font-size:2rem;
+
+    font-weight:bold;
+
+    color:#FFD700;
+}
