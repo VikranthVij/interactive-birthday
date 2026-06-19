@@ -939,6 +939,43 @@ const galleryImages = [
 "PHOTO-2026-04-07-17-36-53.jpg"
 ];
 
+const captions = {
+
+    "PHOTO-2025-02-21-06-51-39.jpg":
+    "A pic that I will cherish forever ❤️",
+
+    "DSCF4926.JPG":
+    "My fav pic from Mumbai ❤️",
+
+    "PHOTO-2025-07-18-18-31-04.jpg":
+    "No matter what, you will always be their child ❤️",
+
+    "PHOTO-2025-02-27-20-03-11.jpg":
+    "Most personal pic of us. I love you ❤️",
+
+    "DSCF3341.JPG":
+    "Can't you be this close to me forever? 🥺❤️",
+
+    "85917c4b-2717-4c43-b4c8-96fb42cb65dd.JPG":
+    "Picture of the girl I fell for, that our kids will see ❤️",
+
+    "DSCF0990.JPG":
+    "Please, let's always be like this 🥺❤️",
+
+    "DSCF3577.JPG":
+    "A pic to always remind myself, she is worth everything ❤️",
+
+    "DSCF3119.JPG":
+    "Maybe, it's your hands that hold all the magic ✨❤️",
+
+    "PHOTO-2025-07-18-18-33-25.jpg":
+    "I am still obsessed with your nose rings 😘❤️",
+
+    "PHOTO-2026-04-07-17-36-53.jpg":
+    "That smile is all the reason I exist for ❤️"
+
+};
+
 function showAlbum(){
     playMusic(
     music.quiet
@@ -947,8 +984,10 @@ function showAlbum(){
     document.getElementById("app");
 
     let galleryHTML = "";
-
     galleryImages.forEach((image,index)=>{
+
+        const caption =
+        captions[image];
 
         galleryHTML += `
 
@@ -958,9 +997,13 @@ function showAlbum(){
                 src="assets/gallery/${image}"
                 onclick="openImage(${index})">
 
-                <p>
-                    Memory #${index+1} ❤️
-                </p>
+                ${
+                    caption
+                    ?
+                    `<p>${caption}</p>`
+                    :
+                    ""
+                }
 
             </div>
 
