@@ -193,12 +193,14 @@ function updateCountdown(){
 
     if(difference <= 0){
 
-        document.querySelector(".lock")
-        .textContent = "🔓";
+        const mission =
+        document.querySelector(".mission");
 
-        document.querySelector(".mission")
-        .textContent =
-        "Birthday unlocked ❤️";
+        if(mission){
+
+            mission.textContent =
+            "Birthday unlocked ❤️";
+        }
 
         return;
     }
@@ -233,10 +235,22 @@ function updateCountdown(){
     1000
     );
 
-    document.getElementById("days").textContent = days;
-    document.getElementById("hours").textContent = hours;
-    document.getElementById("minutes").textContent = minutes;
-    document.getElementById("seconds").textContent = seconds;
+    const daysEl =
+    document.getElementById("days");
+
+    const hoursEl =
+    document.getElementById("hours");
+
+    const minutesEl =
+    document.getElementById("minutes");
+
+    const secondsEl =
+    document.getElementById("seconds");
+
+    if(daysEl) daysEl.textContent = days;
+    if(hoursEl) hoursEl.textContent = hours;
+    if(minutesEl) minutesEl.textContent = minutes;
+    if(secondsEl) secondsEl.textContent = seconds;
 }
 
 updateCountdown();
@@ -977,6 +991,8 @@ const captions = {
 };
 
 function showAlbum(){
+    console.log("showAlbum");
+    console.log(galleryImages.length);
     playMusic(
     music.quiet
     );
